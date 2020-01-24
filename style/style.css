@@ -7,6 +7,24 @@
   }
 
   body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #ECEEF1;
     
   }
+header{
+    margin-top: 55px;
+}
+
+.content{
+    background-color: #fff;
+    padding: 30px;
+    width: 420px;
+    height: 670px;
+    border-style: solid;
+    border-color:rgb(203, 205, 209);
+    border-width: thin;
+    border-radius: 2px;
+}
