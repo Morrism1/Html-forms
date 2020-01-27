@@ -93,7 +93,6 @@ main {
   margin-right: 6px;
   vertical-align: text-top;
   display: inline-block;
-  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -153,7 +152,7 @@ input[type="password"] {
   width: 85%;
   height: 30px;
   margin-top: 10px;
-  margin-left: 10x;
+  margin-left: 10px;
   border: 1px solid #c1c5c8;
   border-radius: 3px;
   line-height: 1.3em;
@@ -187,13 +186,11 @@ form button {
   width: 85%;
   height: 40px;
   color: white;
-  margin-top: 10px;
   position: relative;
   right: 1px;
   background-color: #0077c5;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
-  color: white;
   padding: 0 25px;
   text-align: center;
   text-decoration: none;
@@ -233,7 +230,6 @@ form button {
   padding: 16px;
   outline: none;
   text-align: center;
-  box-sizing: border-box;
   height: 20%;
 }
 
@@ -242,7 +238,6 @@ form button {
   color: #8d9096;
   line-height: 1.5;
   text-align: center;
-
 }
 
 .footer_links {
