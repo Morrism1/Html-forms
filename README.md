@@ -1,6 +1,6 @@
 # Html-forms
 
-> This is a youtube clone project.
+> This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
 
 ![screenshot](img/read-me.png)
 
