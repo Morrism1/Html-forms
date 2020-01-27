@@ -1,99 +1,281 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-  }
-
-  body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ECEEF1;
-    
-  }
-header{
-    
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-.content{
-    background-color: #fff;
-    padding: 30px;
-    width: 380px;
-    height: 670px;
-    border-style: solid;
-    border-color:rgb(203, 205, 209);
-    border-width: thin;
-    border-radius: 2px;
-    
-}
-.side_content{
-    padding: 10px 30px;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 11.8px;
-    font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceef1;
 }
 
-.text{
-    color: #505050;
+header {
+  width: 100%;
 }
 
-.text_2{
+main {
+  width: 380px;
+  height: 85%;
+  border-style: solid;
+  border-color: rgb(203, 205, 209);
+  border-width: thin;
+  border-radius: 2px;
+  border: 1px solid #c7c7c7;
+  margin: auto;
+  overflow: visible;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.content {
+  background-color: #fff;
+  padding: 0 30px;
+}
+
+.side_content {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 11.8px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  color: #505050;
+}
+
+.text_2 {
   color: #0077c5;
   font-weight: 400;
 }
 
-.logo{
-    margin-top: -12px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.logo {
+  margin-top: -12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.side_top_content{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-    justify-content: center;
-   
+.side_top_content {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: center;
 }
 
 .button {
-    background-color: #0077c5;
-    border-radius: 4px;
-    height: 37px;
-    width: 110px;
-    border: 1px solid #4c4c4c;
-    color: white;
-    padding: 0 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.25em;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+  background-color: #0077c5;
+  border-radius: 4px;
+  height: 37px;
+  width: 110px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
-  
+.button_logo {
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 6px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
-  .button_logo{
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png); 
-    height: 1em;
-    width: .8em;
-    margin-top: 2px;
-    margin-right: 6px;
-    vertical-align: text-top;
-    display: inline-block;
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
-    background-size: contain;
-    background-repeat: no-repeat; 
-  }
+form {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
 
-  
+form h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #4c4c4c;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+form h2 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #4c4c4c;
+}
+
+form h3 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+form a {
+  color: #0077c5;
+}
+
+input[type="email"] {
+  width: 85%;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 3px;
+  line-height: 1.3em;
+  border: 1px solid #c1c5c8;
+  padding: 8px;
+}
+
+input[type="tel"] {
+  width: 85%;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 3px;
+  line-height: 1.3em;
+  border: 1px solid #c1c5c8;
+  padding: 8px;
+}
+
+input[type="password"] {
+  width: 85%;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10x;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  padding: 8px;
+}
+
+#stan {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  min-height: 20px;
+  text-align: left;
+  margin-left: 24px;
+}
+
+label {
+  position: relative;
+  float: left;
+  left: 30px;
+  margin-top: 30px;
+}
+
+#lock {
+  position: relative;
+  right: 30px;
+  color: grey;
+  opacity: 0.5;
+}
+
+form button {
+  width: 85%;
+  height: 40px;
+  color: white;
+  margin-top: 10px;
+  position: relative;
+  right: 1px;
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#lock2 {
+  position: relative;
+  right: 7px;
+  bottom: 1px;
+}
+
+.input_form label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.terms {
+  font-size: 14px;
+  font-style: italic;
+  color: #757575;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.form_footer {
+  background-color: #eceef1;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 16px;
+  outline: none;
+  text-align: center;
+  box-sizing: border-box;
+  height: 20%;
+}
+
+.form_footer_text {
+  font-size: 11px;
+  color: #8d9096;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.footer_links {
+  color: #505050 !important;
+  font-size: 15px;
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  padding: 0 330px;
+}
+
+.footer_links:hover {
+  text-decoration: underline;
+}
+
+.footer_text {
+  color: #505050;
+}
+
+.last_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  color: #505050 !important;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
